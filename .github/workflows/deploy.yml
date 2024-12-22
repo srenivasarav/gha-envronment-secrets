@@ -1,11 +1,8 @@
-name: Deployment
+name: Deployment MogoDB
 on:
   push:
     branches:
       - master
-      - release
-      - main
-      - develop
 env:
   MONGODB_DB_NAME: gha-mogo
 jobs:

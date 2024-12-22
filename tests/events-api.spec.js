@@ -14,7 +14,7 @@ test('event creation', async ({ request }) => {
   expect(resData).toHaveProperty('event.id');
   expect(resData.event.title).toBe(testTitle);
 });
-
+//comment added
 test('getting events', async ({ request }) => {
   const response = await request.get('/');
   expect(response.ok()).toBeTruthy();
